@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.header div {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.front img {
+    width: 400px;
+    height: 300px;
+}
+
+.owlInfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.owl {
+    width: 250px;
+    text-align: center;
+}
+
+.owl img {
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    border: 3px solid #3882F6;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.front {
+    display: flex;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.callBox {
+    background-color: #3882F6;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+/* {border: 1px solid red;}
